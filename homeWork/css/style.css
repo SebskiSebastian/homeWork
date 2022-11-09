@@ -1,0 +1,165 @@
+/*.table {
+    font-family: sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tableCell {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    vertical-align: top
+}
+
+.caption {
+    caption-side: bottom;
+    text-align: right;
+    margin: 15px;
+}
+
+.tableHeader {
+    color: aliceblue;
+    background-color: orange;
+    font-weight: normal
+}
+
+.tableRow:nth-child(even) {
+    background: #eee;
+}
+
+.tableRow:hover {
+    background: #ddd;
+}
+
+.container {
+    overflow-x: auto;
+}*/
+
+.zawod {
+    color: gray;
+}
+
+.naglowek {
+    font-size: 36px;
+    font-family: sans-serif;
+    border: 1;
+    margin-bottom: 10px;
+}
+
+
+.body {
+    background-color: #d3d6dc;
+    padding: 40px 0;
+}
+
+.naglowek2 {
+    font-size: 24px;
+    font-style: italic;
+    font-family: sans-serif;
+}
+
+.h3 {
+    margin-top: 5px;
+}
+
+.tersc {
+    font-family: sans-serif;
+    color: rgb(15, 87, 151);
+}
+
+.sekcje {
+    padding: 10px 60px 20px 60px;
+
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 60px;
+
+}
+
+.listaDane {
+    list-style: none;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
+.img {
+    border-radius: 50px;
+    margin-right: 10px;
+    padding: 4px;
+    width: 19px;
+    vertical-align: middle;
+}
+
+.hobby {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hobby li {
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.divHobby {
+    margin-left: 20px;
+}
+
+.hobbyParagraph {
+    color: gray;
+    line-height: 1.5;
+}
+
+p {
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+.downloadCV {
+    border: 2px solid coral;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 12px 15px;
+    color: rgb(79, 21, 21);
+    display: block;
+    margin: 1px 10px;
+    margin-right: 190px;
+    margin-top: 15px;
+    font-size: 16px;
+    transition: backgroud-color 0.7s color 0.7s;
+    box-shadow: 10px 10px 20px grey;
+}
+
+.downloadCV:hover {
+    background: yellow;
+    color: rgb(5, 36, 36);
+}
+
+.downloadCV:focus {
+    outline: none;
+    color: wheat;
+    background-color: teal;
+}
+
+.downloadCV:active {
+    text-decoration: underline;
+}
+
+.container {
+    box-shadow: 10px 10px 20px grey;
+    width: 960px;
+    margin: 0 auto;
+    background-color: white;
+}

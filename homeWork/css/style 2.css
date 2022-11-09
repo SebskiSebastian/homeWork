@@ -1,0 +1,27 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::before, ::after [ box-sizing: inherit;
+
+] .Podstawowy {
+    color: hsl(0, 59%, 41%);
+    background-color: blueviolet;
+}
+
+.waznaData {
+    color: greenyellow;
+}
+
+.pewnieDolar {
+    color: blueviolet;
+}
+
+.pudelko {
+    color: aqua;
+}
+
+.dolnyAkapit {
+    background-color: #6e3b9d;
+    color: blanchedalmond;
+}

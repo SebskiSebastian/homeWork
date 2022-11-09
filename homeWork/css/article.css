@@ -1,0 +1,29 @@
+.article {
+    max-width: 605px;
+    padding: 20px;
+    box-shadow: 2px 2px 8px #ccc;
+    margin: 20px auto;
+}
+
+.article--dark {
+    background: #222;
+    color: #695d5d;
+}
+
+
+.article__header {
+    color: teal;
+}
+
+.article__paragraph {
+    color: #777;
+}
+
+.article__paragraph .article--dark {
+    color: #999;
+}
+
+
+.article__paragraph--highlighted {
+    color: black;
+}

@@ -1,0 +1,43 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::before ::after {
+    box-sizing: inherit;
+}
+
+
+.table {
+    font-family: sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+.caption {
+    color: black;
+    margin: 20px;
+}
+
+.cell {
+    border: 1px solid;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.wiersz {
+    background-color: darkgoldenrod;
+    color: antiquewhite;
+}
+
+.tableRow:nth-child(even) {
+    background: #bbb;
+}
+
+.tableRow:hover {
+    background: #ddd;
+}
+
+.container {
+    overflow-x: auto;
+}

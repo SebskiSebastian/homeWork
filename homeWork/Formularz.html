@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz</title>
+    <script defer src="js/script.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <p>
+                <label>
+                    Imie i nazwisko: <input name="name" placeholder="Imie i nazwisko" autofocus>
+                    <!--atrybuty <input>: name, placeholder, autofocus, readonly, disabled-->
+                </label>
+            </p>
+            <p>
+                <button>Wyslij!</button>
+                <!-- moze byc tez: <input type="submit" value="Wyslij!"--->
+                <button type="reset">Wyczysc Formularz!</button>
+            </p>
+            <p>
+                <label>
+                    Opis:
+                    <textarea name="description" rows="5" cols="30">
+                                    domyslna wartosc
+                    </textarea>
+                </label>
+            </p>
+        </form>
+    </div>
+
+    <div>
+        <form>
+            <fieldset>
+                <legend>Dane Osobowe</legend>
+                <p>
+                    <label>
+                        Imie: <input name="firstName" placeholder="firstName" autofocus>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Nazwidko: <input name="lastName" placeholder="lastName">
+                    </label>
+                </p>
+            </fieldset>
+            <p>
+                <button>Wyslij!</button>
+                <button type="reset">Wyczysc Formularz!</button>
+            </p>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
